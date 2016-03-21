@@ -1,0 +1,94 @@
+
+.mainheader{
+	background-color: #d82c2e;
+	height: 606px;
+
+	
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.jumbotron{
+	background-color: #d82c2e;
+	padding-top: 10px;
+
+
+}
+
+/*.header1{
+	margin: -1px -32px;
+	border: none;
+}*/
+
+.navbar-inverse {
+    background-color: #d82c2e;
+    border-color: #d82c2e;
+}
+
+.menus{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color:white;
+}
+
+.element
+{
+	text-shadow: 3px 4px 7px rgba(144, 68, 68, 0.83);
+	color: #FFFFFF;
+	font-size: 53px;
+	
+
+}
+
+.small{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.para{
+	font-size: 20px;
+	padding: 20px;
+	color: white;
+}
+
+.resume{
+margin-top: 3em;
+background-color: #d82c2e;
+padding: 10px 20px 0px 20px;
+}
+
+.resume-text{
+	font-size: 20px;
+	color: white;
+	border-color: yellow;
+
+}
+
+
+
+/* ------- SKILLS -------- */
+
+.progress-bar-striped, .progress-striped .progress-bar {
+    background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-image: -o-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-image: linear-gradient(45deg,rgba(134,0,0,1) 25%,transparent 25%,rgba(95, 0, 0, 0) 50%,rgba(200,0,0,1) 50%,rgb(134, 1, 1) 75%,transparent 75%,transparent);
+    -webkit-background-size: 40px 40px;
+    background-size: 40px 40px;}
+
+.progress-bar{
+background-color: rgba(99, 18, 18, 0.7);
+
+font-weight: bold;
+color:white;
+}
+
+.progress{
+	margin-bottom: 25px;
+}
