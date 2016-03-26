@@ -132,8 +132,8 @@ margin-right: auto
 
 .projectopt{
 	background-color: #d82c2e;
-    /*height: 630px;*/
-    }
+	height: 630px;
+	}
 
 .projectpage{
 	text-shadow: 3px 4px 7px rgba(144, 68, 68, 0.83);
