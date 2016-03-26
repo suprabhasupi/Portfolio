@@ -170,6 +170,14 @@ margin-right: auto
 .left-contact ,.right-contact{
 	margin-top: 30px;
 }
+.box1{
+	    position: relative;
+    left: 30%;
+}
+.box2{
+	    position: relative;
+    left: 35%;
+}
 
 .contact-form{
 	text-shadow: 3px 4px 7px rgba(144, 68, 68, 0.83);
