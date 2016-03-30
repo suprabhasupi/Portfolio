@@ -72,7 +72,7 @@ nav.menu-nav.navbar.navbar-inverse {
 }
 
 .resume{
-margin-top: 3em;
+margin-top: 6em;
 background-color: #d82c2e;
 padding: 10px 20px 0px 20px;
 }
@@ -235,6 +235,10 @@ position:relative;
 	margin-bottom: 85px;
 }
 
+.menu-nav{
+	position: fixed;
+}
+
 .right-contact{
 	font-size: 18px;
 }
@@ -261,11 +265,16 @@ a:hover{
 @media only screen and (max-width: 500px) {
   .projectopt {
     background-color: #d82c2e;
-    height: 808px;
+    height: 840px;
 }
 .project_wrapper.center-block.col-md-6.col-sm-12.col-xs-12 {
     position: absolute;
     left: 0%;
+}
+
+#myNavbar {
+    margin-right: 0px;
+    margin-left: 10px; 
 }
 
 }
