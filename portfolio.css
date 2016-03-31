@@ -1,4 +1,47 @@
 
+@font-face{
+	font-family: "para_font";
+	src: url("custom-font/Znikomit.otf") format("truetype");
+}
+
+body {
+	font-family: "para_font";
+}
+
+@font-face{
+	font-family: "para_font1";
+	src: url("custom-font/Disguise Slim.otf") format("truetype");
+}
+
+.para{
+	font-family: "para_font1";
+}
+
+@font-face{
+	font-family: "para_font2";
+	src: url("custom-font/Cocomat_light.ttf") format("truetype");
+}
+.ui{
+  font-family: "para_font";
+}
+
+
+
+
+
+@font-face{
+	font-family: "para_font3";
+	src: url("custom-font/Disguise Display - regular.otf") format("truetype");
+}
+
+
+#small_name{
+	font-size:100px;
+}
+
+
+
+
 .mainheader{
 	background-color: #d82c2e;
 	height: 660px;
@@ -54,7 +97,9 @@ nav.menu-nav.navbar.navbar-inverse {
 {
 	text-shadow: 3px 4px 7px rgba(144, 68, 68, 0.83);
 	color: #FFFFFF;
-	font-size: 53px;
+	font-family: "para_font3";
+	font-size:125px;
+	letter-spacing: 4px;
 	
 
 }
@@ -66,7 +111,8 @@ nav.menu-nav.navbar.navbar-inverse {
 }
 
 .para{
-	font-size: 20px;
+	font-size: 30px;
+	letter-spacing: 1px;
 	padding: 20px;
 	color: white;
 }
@@ -267,14 +313,33 @@ a:hover{
     background-color: #d82c2e;
     height: 840px;
 }
+
+.mainheader{
+	height: 690px;
+}
 .project_wrapper.center-block.col-md-6.col-sm-12.col-xs-12 {
     position: absolute;
     left: 0%;
 }
-
+.element{
+		font-size: 75px;
+	}
 #myNavbar {
     margin-right: 0px;
     margin-left: 10px; 
+}
+.para{
+	font-size:27px;
+	
+}
+
+.resume-text{
+
+	font-size: inherit;
+
+}
+.resume{
+	margin-top: 3em;
 }
 
 }
@@ -284,6 +349,12 @@ a:hover{
     position: absolute;
     left: 0%;
 	}
+	.resume-text{
+		font-size: 20px;
+	}
+
+
+	
 
 }
 @media only screen and (min-width: 1000px)  and (max-width: 1200px){
@@ -291,5 +362,10 @@ a:hover{
     position: absolute;
     left: 25%;
 	}
+
+	.resume-text{
+		font-size: 20px;
+	}
+	
 
 }
